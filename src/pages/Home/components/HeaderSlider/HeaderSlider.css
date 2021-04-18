@@ -1,0 +1,43 @@
+.slider {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../../../images/sliderOne.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider_info {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #00000087;
+}
+
+.slider_info > h1 {
+  color: white;
+  font-size: 60px;
+}
+.slider_info > p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.slider_info > button {
+    color: white;
+    padding: 10px 21px;
+    margin-top: 30px;
+    background-color: #03a9f4;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .slider_info > button:hover {
+    color: white;
+    background-color: #000000;
+  
+  }
+  

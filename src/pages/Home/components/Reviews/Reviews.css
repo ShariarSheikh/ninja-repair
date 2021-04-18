@@ -1,0 +1,67 @@
+.reviews{
+    width: 100%;
+    height: 600px;
+    background-color: azure;
+    margin-top: 50px;
+}
+.reviews_carousel_container{
+    width:80%;
+    margin: 0 auto;
+    height:400px;
+}
+.title{
+    margin-top: 30px;
+}
+.item{
+    width:100%;
+    background-color:rgb(219 219 219 / 72%);
+    margin-top: 40px;
+    border: 0.1px solid lightgrey;
+    border-radius: 30px;
+    padding: 20px;
+}
+.carousel {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.reviews_person_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+    box-shadow: 0px 0px 10px 0px #00000069;
+    object-fit: cover;
+}
+.person_name{
+    font-size: 20px;
+    margin-top: 10px;
+    color:black;
+}
+.person_title{
+    color:black;
+    text-align:center;
+}
+.item > div{
+    width:70%;
+    margin: 0 auto;
+}
+.carousel-indicators {
+   bottom: -40px !important;
+}
+.carousel-indicators li {
+    background-color: #000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

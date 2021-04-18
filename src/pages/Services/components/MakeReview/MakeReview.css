@@ -1,0 +1,49 @@
+.reviewMake {
+  width: 100%;
+  height:70vh;
+  display: flex;
+  justify-content: center;
+}
+.form_container{
+    box-shadow: 0px 0px 14px 0px #5a565621;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    padding:10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+.review_make_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+ 
+}
+.review_making_input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.review_message{
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.review_send_btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+}
